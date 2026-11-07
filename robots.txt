@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://ugurlab.github.io/culture-collection/sitemap.xml
