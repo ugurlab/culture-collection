@@ -29,6 +29,9 @@ JSON schemaVersion 1: groups, cultures, stocks, history. Stable IDs link culture
 - 1.1: English only; accent-insensitive search; wider stock search; delete cultures and vials; occupied-position warning; six-month reminders for old vials and backups.
 - 1.0: First release.
 
+## Credits
+Culture Collection was designed by Ugur Comlekcioglu. The first version was built with ChatGPT (OpenAI) and it was further developed with Claude (Anthropic).
+
 ## Licence
 Culture Collection is open source under the [MIT License](LICENSE). You are welcome to use, change and share it, including in your own projects, as long as you keep the copyright notice and the licence text, which credit the original author. The embedded Instrument Sans font is under the SIL Open Font License (FONT-LICENSE.txt in the ZIP).
 
