@@ -6,7 +6,7 @@ An offline culture and stock-vial inventory tool by Ugur Comlekcioglu.
 - [Desk & Bench catalogue](https://ugurlab.github.io/desk-and-bench/)
 
 ## Use
-Download `culture-collection.zip`, extract it and open `culture-collection.html` in Chrome, Edge or Firefox. No installation, account or internet connection is needed. The ZIP contains the full application source, instructions and the embedded font licence. The app is in English only.
+Download `culture-collection.zip`, extract it and open `culture-collection.html` in Chrome, Edge or Firefox. No installation, account or internet connection is needed. The ZIP contains the full application source and instructions. The full MIT and Instrument Sans SIL Open Font License texts are embedded in a comment at the top of culture-collection.html. The app is in English only.
 
 Define your own groups (clinical, wastewater, textile factory, etc.), add cultures and attach multiple stock vials. Record freezer/device, shelf, rack, box, position, dates and status. Search, filter, archive, restore or move records to recoverable Trash, and export JSON backups and CSV reports.
 
@@ -28,6 +28,7 @@ JSON schemaVersion 2: groups, cultures, stocks, history, settings. Optional dele
 Move cultures and vials to Trash and restore them there. A culture retains its linked vials; separately trashed vials remain in Trash after their culture is restored. Records are never purged automatically. Codes remain reserved while trashed. JSON backups include Trash, settings and check dates. CSV reports exclude trashed records. Groups used by trashed cultures cannot be deleted. Restoring vials to occupied positions asks for confirmation.
 
 ## Changes
+- 1.3 packaging update: full MIT and Instrument Sans SIL Open Font License texts moved into the HTML; separate licence files removed from the ZIP. Application behavior is unchanged.
 - 1.3: recoverable Trash; configurable viability check interval and last-check dates; schema 1 migration to schema 2; future-release workflow documented in the catalogue DESIGN.md.
 - 1.2: backup bar after every change (replaces the six-month backup reminder); MIT License.
 - 1.1: English only; accent-insensitive search; wider stock search; delete cultures and vials; occupied-position warning; six-month reminders for old vials and backups.
@@ -37,7 +38,7 @@ Move cultures and vials to Trash and restore them there. A culture retains its l
 Culture Collection was designed by Ugur Comlekcioglu. The first version was built with ChatGPT (OpenAI) and it was further developed with Claude (Anthropic).
 
 ## Licence
-Culture Collection is open source under the [MIT License](LICENSE). You are welcome to use, change and share it, including in your own projects, as long as you keep the copyright notice and the licence text, which credit the original author. The embedded Instrument Sans font is under the SIL Open Font License (FONT-LICENSE.txt in the ZIP).
+Culture Collection is open source under the [MIT License](LICENSE). You are welcome to use, change and share it, including in your own projects, as long as you keep the copyright notice and the licence text, which credit the original author. The embedded Instrument Sans font is under the SIL Open Font License (full text in the comment at the top of culture-collection.html).
 
 ## Contributing
 Issues and pull requests are welcome. If you build on Culture Collection, a link back to this repository is appreciated.
